@@ -1,0 +1,15 @@
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/obj/Debug/net8.0/Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/obj/Debug/net8.0/Assignment1.AssemblyInfoInputs.cache
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/obj/Debug/net8.0/Assignment1.AssemblyInfo.cs
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/obj/Debug/net8.0/Assignment1.csproj.CoreCompileInputs.cache
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/obj/Debug/net8.0/Assignment1.sourcelink.json
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/bin/Debug/net8.0/Assignment1
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/bin/Debug/net8.0/Assignment1.deps.json
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/bin/Debug/net8.0/Assignment1.runtimeconfig.json
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/bin/Debug/net8.0/Assignment1.dll
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/bin/Debug/net8.0/Assignment1.pdb
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/obj/Debug/net8.0/Assignment1.dll
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/obj/Debug/net8.0/refint/Assignment1.dll
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/obj/Debug/net8.0/Assignment1.pdb
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/obj/Debug/net8.0/Assignment1.genruntimeconfig.cache
+/home/karan/Documents/KaranKapoor-FM5353/Assignment1/obj/Debug/net8.0/ref/Assignment1.dll
