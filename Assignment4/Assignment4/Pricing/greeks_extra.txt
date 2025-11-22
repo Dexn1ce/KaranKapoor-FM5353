@@ -1,51 +1,7 @@
-using System;
-using System.Linq;   
-
-public class Range_option : Option
-{
-    int N_prices;
-    public double[] S_path;
-
-    public Range_option()
-    {
-
-        Console.WriteLine("Mention the size of underlying price path: ");
-        N_prices = Convert.ToInt32(Console.ReadLine());
-        S_path = new double[N_prices];
-
-        Console.WriteLine("Enter underlying prices along the path:");
-        for (int i = 0; i < N_prices; i++)
-        {
-            Console.Write($"Price {i + 1}: ");
-            S_path[i] = Convert.ToDouble(Console.ReadLine());
-        }
-
-        S = S_path[0];
-    }
-
     // ---------------------------------------------------------
-    // Payoff = S_max - S_min
+    // Greeks (finite-difference approximations)
     // ---------------------------------------------------------
-    public override double Payoff(double dummy = 0.0)
-    {
-        double S_max = S_path.Max();
-        double S_min = S_path.Min();
-
-        return Math.Max(S_max - S_min, 0.0);
-    }
-
-    // ---------------------------------------------------------
-    // Price = discounted expected payoff
-    // ---------------------------------------------------------
-    public override double Price()
-    {
-        return Math.Exp(-r * T) * Payoff();
-    }
-
-    // ---------------------------------------------------------
-    // Greeks (finite difference approximations)
-    // ---------------------------------------------------------
-    public override double Delta()
+ /*   public override double Delta()
     {
         double eps = 1e-4;
         double[] up = S_path.Select(x => x * (1 + eps)).ToArray();
@@ -84,7 +40,6 @@ public class Range_option : Option
 
         return (upPrice - downPrice) / (2 * oldSig * eps);
     }
-
     public override double Theta(double U)
     {
         double eps = 1e-4;
@@ -118,6 +73,9 @@ public class Range_option : Option
     {
         double S_max = path.Max();
         double S_min = path.Min();
-        return Math.Max(S_max - S_min, 0.0);
-    }
-}
+
+        if (otyp == "call")
+            return Math.Max(S_max - K, 0.0);
+        else
+            return Math.Max(K - S_min, 0.0);
+    }*/
