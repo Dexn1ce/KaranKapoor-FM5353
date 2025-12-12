@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rate Points Management</title>
+    <link rel="stylesheet" href="ratepoints.css">
+</head>
+<body>
+
+<nav>
+    <a href="portfolio_home.html">Home</a>
+    <a href="ratepoints.html">Rate Points</a>
+</nav>
+
+<h1>Rate Points Management</h1>
+
+<!-- Filter Section -->
+<h2>Load Rate Points by Curve</h2>
+<label>Rate Curve ID:</label>
+<input type="date" id="curveIdInput" />
+<button onclick="loadRatePoints()">Load</button>
+
+<!-- Display Table -->
+<h2>Rate Points</h2>
+<table id="ratePointsTable">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Curve ID</th>
+            <th>Tenor</th>
+            <th>Rate</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="ratepoints.js"></script>
+</body>
+</html>
+

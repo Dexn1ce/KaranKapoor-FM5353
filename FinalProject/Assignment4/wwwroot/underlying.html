@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Underlying</title>
+    <link rel="stylesheet" href="underlying.css">
+</head>
+<body>
+
+<nav>
+    <a href="options.html">Options</a>
+    <a href="asian_options.html">Asian_options</a>
+    <a href="lookback_options.html">Lookback_options</a>
+    <a href="barrier_options.html">Barrier_options</a>
+    <a href="range_options.html">Range_options</a>
+    <a href="digital_options.html">Digital_options</a>
+    <a href="market.html">Market</a>
+    <a href="historical.html">Historicalprices</a>
+</nav>
+
+<h1>Underlying Management</h1>
+
+<h2>Add New Underlying</h2>
+<form id="addUnderlyingForm">
+    <label>Symbol:</label>
+    <input type="text" id="symbol" required>
+
+    <label>Name:</label>
+    <input type="text" id="name" required>
+
+
+    <label>AssetType:</label>
+    <input type="text" id="assettype" required>
+
+    <button type="submit">Add Underlying</button>
+</form>
+
+<h2>All Underlyings</h2>
+<table id="underlyingTable" border ="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Symbol</th>
+            <th>Name</th>
+	    <th>AssetType</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+
+
+<script src="underlying.js"></script>
+</body>
+</html>
+

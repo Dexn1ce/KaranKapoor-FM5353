@@ -1,0 +1,177 @@
+{
+  "Files": [
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/asian_options.css",
+      "PackagePath": "staticwebassets/asian_options.css"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/asian_options.html",
+      "PackagePath": "staticwebassets/asian_options.html"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/asian_options.js",
+      "PackagePath": "staticwebassets/asian_options.js"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/barrier_options.css",
+      "PackagePath": "staticwebassets/barrier_options.css"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/barrier_options.html",
+      "PackagePath": "staticwebassets/barrier_options.html"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/barrier_options.js",
+      "PackagePath": "staticwebassets/barrier_options.js"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/digital_options.css",
+      "PackagePath": "staticwebassets/digital_options.css"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/digital_options.html",
+      "PackagePath": "staticwebassets/digital_options.html"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/digital_options.js",
+      "PackagePath": "staticwebassets/digital_options.js"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/exchange.css",
+      "PackagePath": "staticwebassets/exchange.css"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/exchange.html",
+      "PackagePath": "staticwebassets/exchange.html"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/exchange.js",
+      "PackagePath": "staticwebassets/exchange.js"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/historical.css",
+      "PackagePath": "staticwebassets/historical.css"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/historical.html",
+      "PackagePath": "staticwebassets/historical.html"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/historical.js",
+      "PackagePath": "staticwebassets/historical.js"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/lookback_options.css",
+      "PackagePath": "staticwebassets/lookback_options.css"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/lookback_options.html",
+      "PackagePath": "staticwebassets/lookback_options.html"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/lookback_options.js",
+      "PackagePath": "staticwebassets/lookback_options.js"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/market.css",
+      "PackagePath": "staticwebassets/market.css"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/market.html",
+      "PackagePath": "staticwebassets/market.html"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/market.js",
+      "PackagePath": "staticwebassets/market.js"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/options.css",
+      "PackagePath": "staticwebassets/options.css"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/options.html",
+      "PackagePath": "staticwebassets/options.html"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/options.js",
+      "PackagePath": "staticwebassets/options.js"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/portfolio_home.css",
+      "PackagePath": "staticwebassets/portfolio_home.css"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/portfolio_home.html",
+      "PackagePath": "staticwebassets/portfolio_home.html"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/range_options.css",
+      "PackagePath": "staticwebassets/range_options.css"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/range_options.html",
+      "PackagePath": "staticwebassets/range_options.html"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/range_options.js",
+      "PackagePath": "staticwebassets/range_options.js"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/ratepoints.css",
+      "PackagePath": "staticwebassets/ratepoints.css"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/ratepoints.html",
+      "PackagePath": "staticwebassets/ratepoints.html"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/ratepoints.js",
+      "PackagePath": "staticwebassets/ratepoints.js"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/trade.cs",
+      "PackagePath": "staticwebassets/trade.cs"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/trade.css",
+      "PackagePath": "staticwebassets/trade.css"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/trade.html",
+      "PackagePath": "staticwebassets/trade.html"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/trade.js",
+      "PackagePath": "staticwebassets/trade.js"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/underlying.css",
+      "PackagePath": "staticwebassets/underlying.css"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/underlying.html",
+      "PackagePath": "staticwebassets/underlying.html"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/FinalProject/Assignment4/wwwroot/underlying.js",
+      "PackagePath": "staticwebassets/underlying.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Assignment4.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Assignment4.props",
+      "PackagePath": "build\\Assignment4.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Assignment4.props",
+      "PackagePath": "buildMultiTargeting\\Assignment4.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Assignment4.props",
+      "PackagePath": "buildTransitive\\Assignment4.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,124 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    background-color: #f7f7f7;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #333;
+    padding: 12px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Headers */
+h1 { font-size: 32px; }
+h2 { font-size: 26px; margin-top: 25px; }
+h3 { font-size: 22px; }
+
+/* Form styling */
+form {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 8px;
+    font-size: 18px;
+    margin: 6px 0;
+    width: 250px;
+}
+
+button {
+    margin-top: 12px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0078ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #005fcc;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 18px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+th {
+    background-color: #0078ff;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f0f8ff;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.result-box {
+    margin-top: 15px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+#pricingTable {
+    width: 400px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 15px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    font-size: 18px;
+}
+#pricingTable th {
+    text-align: left;
+    padding: 6px;
+}
+#pricingTable td {
+    padding: 6px;
+    font-weight: bold;
+}
+

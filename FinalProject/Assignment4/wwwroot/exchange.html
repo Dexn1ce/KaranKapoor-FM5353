@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exchange Manager</title>
+    <link rel="stylesheet" href="exchange.css">
+</head>
+<body>
+
+
+<nav>
+	<a href="exchange.html">Exchange</a>
+	<a href="trade.html">Trade</a>
+	<a href="market.html">Market</a>
+</nav>
+<h1>Exchange</h1>
+
+<h2>Add New Exchange</h2>
+<form id="addExchangeForm">
+    <label>Name:</label>
+    <input type="text" id="name" required>
+
+    <label>Country:</label>
+    <input type="text" id="country" required>
+
+    <button type="submit">Add Exchange</button>
+</form>
+
+<h2>All Exchanges</h2>
+<table id="exchangeTable" border ="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Country</th>
+            <th>Created At</th>
+	    <th>Updated at </th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+
+<script src="exchange.js"></script>
+</body>
+</html>
+
