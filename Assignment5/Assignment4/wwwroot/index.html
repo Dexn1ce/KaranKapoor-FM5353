@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monte Carlo Option Pricer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h1>Monte Carlo Option Pricing Simulator</h1>
+
+<div id="container">
+
+    <!-- Option Input Form -->
+    <form id="pricingForm">
+
+        <label>Option Type:</label>
+        <select id="optionType">
+            <option value="european">European</option>
+            <option value="asian">Asian</option>
+            <option value="digital">Digital</option>
+            <option value="barrier">Barrier</option>
+            <option value="lookback">Lookback</option>
+        </select>
+
+        <label>Spot Price (S₀):</label>
+        <input type="number" id="spot" step="0.01" required>
+
+        <label>Strike (K):</label>
+        <input type="number" id="strike" step="0.01" required>
+
+        <label>Volatility (σ):</label>
+        <input type="number" id="sigma" step="0.0001" required>
+
+        <label>Risk-free Rate (r):</label>
+        <input type="number" id="rate" step="0.0001" required>
+
+
+	<label>Option Type:</label>
+	<select id="optiontype">
+	    <option value="call">Call</option>
+	    <option value="put">Put</option>
+	</select>
+
+        <label>Cost of Carry (b):</label>
+        <input type="number" id="costCarry" step="0.0001" required>
+
+        <label>Time to Maturity (T, in years):</label>
+        <input type="number" id="maturity" step="0.0001" required>
+
+        <label>Simulations (N):</label>
+        <input type="number" id="simN" value="10000">
+
+        <label>Timesteps (M):</label>
+        <input type="number" id="simM" value="200">
+
+	<label>Use Antithetic Variates?</label>
+	<select id="useAnt">
+	    <option value="false">No</option>
+	    <option value="true">Yes</option>
+	</select>
+
+	<label>Use Control Variates?</label>
+	<select id="useCont">
+	    <option value="false">No</option>
+	    <option value="true">Yes</option>
+	</select>
+
+	<label>Run in Parallel?</label>
+	<select id="isParallel">
+	    <option value="false">No</option>
+	    <option value="true">Yes</option>
+	</select>
+
+
+
+
+        <div id="optionalFields">
+            <!-- Barrier, payout, etc. added dynamically -->
+        </div>
+
+        <button type="submit">Simulate</button>
+    </form>
+
+    <!-- Output Section -->
+    <div id="results">
+        <h2>Simulation Results</h2>
+
+        <table>
+            <tr><th>Price</th><td id="res_price">—</td></tr>
+            <tr><th>Delta</th><td id="res_delta">—</td></tr>
+            <tr><th>Gamma</th><td id="res_gamma">—</td></tr>
+            <tr><th>Vega</th><td id="res_vega">—</td></tr>
+            <tr><th>Rho</th><td id="res_rho">—</td></tr>
+            <tr><th>Theta</th><td id="res_theta">—</td></tr>
+        </table>
+    </div>
+
+</div>
+
+<script src="index.js"></script>
+</body>
+</html
+

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/Assignment5/Assignment4/wwwroot/index.css",
+      "PackagePath": "staticwebassets/index.css"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/Assignment5/Assignment4/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/karan/Documents/KaranKapoor-FM5353/Assignment5/Assignment4/wwwroot/index.js",
+      "PackagePath": "staticwebassets/index.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Assignment4.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Assignment4.props",
+      "PackagePath": "build\\Assignment4.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Assignment4.props",
+      "PackagePath": "buildMultiTargeting\\Assignment4.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Assignment4.props",
+      "PackagePath": "buildTransitive\\Assignment4.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

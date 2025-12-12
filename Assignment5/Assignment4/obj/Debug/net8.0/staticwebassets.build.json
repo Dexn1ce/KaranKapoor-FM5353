@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "FCsXuj/YED8b/LNqzHfF2YzifAJlZpT2pZ0xdgPb9Pg=",
+  "Source": "Assignment4",
+  "BasePath": "_content/Assignment4",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Assignment4/wwwroot",
+      "Source": "Assignment4",
+      "ContentRoot": "/home/karan/Documents/KaranKapoor-FM5353/Assignment5/Assignment4/wwwroot/",
+      "BasePath": "_content/Assignment4",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/karan/Documents/KaranKapoor-FM5353/Assignment5/Assignment4/wwwroot/index.css",
+      "SourceId": "Assignment4",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/karan/Documents/KaranKapoor-FM5353/Assignment5/Assignment4/wwwroot/",
+      "BasePath": "_content/Assignment4",
+      "RelativePath": "index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.css"
+    },
+    {
+      "Identity": "/home/karan/Documents/KaranKapoor-FM5353/Assignment5/Assignment4/wwwroot/index.html",
+      "SourceId": "Assignment4",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/karan/Documents/KaranKapoor-FM5353/Assignment5/Assignment4/wwwroot/",
+      "BasePath": "_content/Assignment4",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/home/karan/Documents/KaranKapoor-FM5353/Assignment5/Assignment4/wwwroot/index.js",
+      "SourceId": "Assignment4",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/karan/Documents/KaranKapoor-FM5353/Assignment5/Assignment4/wwwroot/",
+      "BasePath": "_content/Assignment4",
+      "RelativePath": "index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.js"
+    }
+  ]
+}
